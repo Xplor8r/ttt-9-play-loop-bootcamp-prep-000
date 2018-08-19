@@ -37,7 +37,7 @@ end
 def play(board)
    turns = 0
         until turns == 9
-        puts 'Wingardium Leviosa'
+        turn(board)
         turns += 1
       end
 end
