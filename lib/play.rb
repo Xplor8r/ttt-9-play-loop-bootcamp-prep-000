@@ -38,6 +38,6 @@ def play(board)
    turns = 0
         until turns == 9
         puts 'Wingardium Leviosa'
-        levitation_force += 1
+        turns += 1
       end
 end
